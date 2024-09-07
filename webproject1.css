@@ -1,0 +1,119 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+
+.container {
+
+  width: 100%;
+  min-height: 100vh;
+  background: url(imgs/orng.jpc) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+
+}
+
+
+nav {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
+}
+
+
+.logo {
+
+  width: 500px;
+  cursor: pointer;
+
+}
+
+nav ul {
+
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+
+}
+
+nav ul li {
+
+  display: inline-block;
+  margin: 10px 20px;
+
+}
+
+nav ul li a {
+
+  color:black;
+  text-decoration: none;
+  font-size: 700;
+
+}
+
+
+.btn {
+
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background: #fab700e0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.content {
+
+  margin-top: 14%;
+  color: black;
+  max-width: 620px;
+
+}
+
+.content h1 {
+
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 25px;
+
+}
+
+
+ form {
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+
+}
+
+form input {
+
+  border: 0;
+  outline: 0;
+  width: 500px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+
+}
